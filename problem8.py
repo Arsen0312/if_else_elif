@@ -1,0 +1,5 @@
+s = set()
+s.add(frozenset((1,2)))
+s.add(frozenset((2,3)))
+s.add(frozenset((3,4)))
+print(s)
